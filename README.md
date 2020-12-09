@@ -1,5 +1,7 @@
 # Google Analytics Logging
 
+[github.com/CDECatapult/integrating-google-analytics-w-angular](https://github.com/CDECatapult/integrating-google-analytics-w-angular)
+
 In order to add the ability to log every single action done by the user we will use Google Analytics. Unfortuantely it isn't enought to just add the google pixel script to the header part of the html section of the project. Because Angular creates a one-page application, it is not possible to track users beyond the index page without making huge changes to the angular code. This document will provide and example of such changes.
 
 ---
